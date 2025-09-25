@@ -1,0 +1,15 @@
+백업 파일들:
+- 기존의 모든 HTML 파일들을 .bak 확장자로 변경해서 백업
+- 새로운 깔끔한 index.html만 남김
+
+원본 Google Sites 파일들:
+- home.html
+- 2-publications.html  
+- 3-courses.html
+- 5-gnu-links.html
+- 5-projects.html
+- etc-links.html
+- links.html
+- writing-links.html
+
+이 파일들을 모두 백업하고 새로운 index.html만 사용
