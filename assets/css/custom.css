@@ -1,0 +1,153 @@
+.jumbotron-main {
+  color: white;
+  background-color: black;
+  padding-top: 0;
+  padding-bottom: 0;
+  position: relative;
+}
+
+.lab-photo {
+  background: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.4) 100%),
+    url("/img/USC_Slogan.png") no-repeat center center;
+    /* url("/DavidHeld_files/rpad group pic - Aug 2020 - fix.png") no-repeat center center; */
+  background-size: cover;
+  background-color: black;
+  min-height: 50px;
+  /* padding-top: 8%; */
+  position: relative;
+}
+@media only screen and (max-width: 900px) {
+  .lab-photo {
+    background-size: contain;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .lab-photo {
+    background-size: contain;
+    min-height: 300px;
+  }
+}
+
+.main-news {
+  height: 500px;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02)
+}
+
+.main-highlights {
+  height: 500px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.footer-logo {
+  height: 75px;
+}
+
+.footer-logo img {
+  height: inherit;
+}
+
+.member-col { 
+  margin-bottom: 20px;
+   
+  padding: 10px;
+}  
+  
+.member-col img {  
+  height: 200px; 
+  object-fit: cover;  
+  display: block;  
+  margin: 0 auto;  
+   
+}  
+  
+.member-col a {
+  word-wrap: break-word;
+  font-size: 16px;
+  /* color: #333;  */  
+ 
+  display: block;
+  margin-top: 10px;
+}
+
+
+.lab-photo {  
+  width: 480px;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}  
+  
+.lab_photos-col {  
+  padding-bottom: 16px;
+}  
+  
+.photo-caption { 
+  font-size: 16px;  
+  /* color: #333;  */
+}
+
+.video_embed {
+  margin-top: 5px;
+}
+
+/* Lab alumni */
+#alumni {
+  /* padding-left: 50px; */
+}
+
+#alumni-label {
+  font-weight: 700;
+  padding-top: 50px;
+}
+
+.alumni-entries {
+  display: grid;
+  grid-template-columns: 200px 400px auto;
+  grid-template-rows: 1fr;
+  grid-template-areas: "name dept job";
+  column-gap: 20px;
+  margin-bottom: 5px;
+}
+
+.pub-grid-parent {
+  display: grid;
+  grid-template-columns: 200px auto;
+  grid-template-rows: 1fr;
+  column-gap: 20px;
+  margin-bottom: 20px;
+}
+
+.pub-grid-child {
+  justify-self: start;
+  align-self: start;
+}
+
+.grid-parent {
+  display: grid;
+  grid-template-columns: 80px auto;
+  grid-template-rows: 1fr;
+  column-gap: 20px;
+  margin-bottom: 20px;
+}
+
+.grid-child {
+  justify-self: start;
+  align-self: start;
+}
+
+.alumni-names {
+  grid-area: name;
+  font-weight: bold;
+}
+
+.alumni-department {
+  grid-area: dept;
+}
+
+.alumni-job {
+  grid-area: job;
+}
